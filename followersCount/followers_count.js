@@ -18,3 +18,10 @@ function checkCountValue(){
 
     }
 }
+
+function resetCount(){
+    count = 0;
+    alert("Followers count has been reset.");
+
+    displayCount();
+}
