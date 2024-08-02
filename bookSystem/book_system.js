@@ -67,6 +67,9 @@ function showbooks() {
         }
     }
 
-    function editBookDetails(){
-        console.log("edits")
+    function editBookDetails(index){
+        console.log("edits", index)
+        // console.log("edits obj", books[index])
+        const editBook = books.filter((item, pos)=> item !== books[index])
+        console.log('filtered',editBook)
     }
